@@ -1,0 +1,42 @@
+.header {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(52, 55, 62, .1);
+    &-row {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        justify-content: space-between;
+    }
+    &-logo {
+        margin-right: 10px;
+    }
+    &-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 20px;
+        a {
+            leading-trim: both;
+            text-edge: cap;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 110%; /* 14.3px */
+            letter-spacing: 0.65px;
+            text-transform: uppercase;
+            color: $grey;
+        }
+    }
+    &-mail {
+        leading-trim: both;
+        text-edge: cap;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 110%; /* 14.3px */
+        letter-spacing: 0.65px;
+        text-transform: uppercase;
+        color: $red;
+    }
+}
